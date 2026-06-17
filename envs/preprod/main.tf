@@ -5,7 +5,7 @@ module "infra" {
   environment        = var.environment
   vpc_cidr           = var.vpc_cidr
   public_subnet_cidr = var.public_subnet_cidr
-  region             = var.aws_region
+  aws_region         = var.aws_region
   availability_zone  = var.availability_zone
   instance_type      = var.instance_type
   ingress_cidrs      = var.ingress_cidrs
